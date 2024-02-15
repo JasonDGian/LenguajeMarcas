@@ -1,0 +1,8 @@
+div{
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
+    background-color: aqua;
+    margin: 20px 10px;
+    /*border: 1px solid gray;*/
+}

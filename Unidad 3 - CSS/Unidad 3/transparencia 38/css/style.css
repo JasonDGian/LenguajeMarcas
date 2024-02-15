@@ -1,0 +1,22 @@
+div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition-duration: 500ms;
+
+}
+
+div:hover{
+    background-color: crimson;
+    width:100px;
+    transition-duration: 500ms;
+}
+
+#id2:hover{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 100ms;
+}

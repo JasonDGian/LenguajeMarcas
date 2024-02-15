@@ -1,0 +1,31 @@
+*{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+#lightblue{
+    height: 80px;
+    background-color: lightblue;
+    width: 200px;
+}
+
+#blueviolet{
+    height: 40px;
+    background-color: blueviolet;
+    width: 200px;
+
+}
+
+#parent{
+    height: 100px;
+    background-color: crimson;
+    width: 200px;
+
+}
+
+#child{
+    height: 50%;
+    width: 75%;
+    background-color: goldenrod;
+
+}

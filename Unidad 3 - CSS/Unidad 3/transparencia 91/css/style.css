@@ -1,0 +1,14 @@
+.margin-example{
+    width: 800px;
+    margin: auto;
+    height:100px;
+    background-color: aqua;
+}
+
+.margin-example2{
+    width: 60%;
+    margin-top: 100px;
+    margin-left:20%;
+    height:100px;
+    background-color: rgb(21, 153, 153);
+}

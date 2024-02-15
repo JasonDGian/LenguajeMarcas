@@ -1,0 +1,74 @@
+@media (min-width: 800px){
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;
+    align-content: center;*/
+    background-color: aquamarine;
+    transition: 500ms;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      background-color: rgb(84, 86, 255);
+      height: auto;
+      transition: 500ms;
+    }
+  }
+
+.dj-button:active{
+    background-color: aqua;
+    color: black;
+}
+
+.dj-show :focus{
+    background-color: aqua;
+ }
+
+.dj-show :hover{
+    background-color: rgb(13, 70, 70);
+}
+
+
+
+
+
+@media (min-width: 800px){
+  /* POSTALES */
+  .postal-card{
+    min-height: 100px;
+    min-width: 200px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    transition: 500ms;
+    margin: 20px;
+    float:left;
+  }
+}
+@media (max-width: 800px) {
+  /* POSTALES */
+  .postal-card{
+    height: 100px;
+    width: 90%;
+    background-color: rgb(43, 226, 217);
+    border-radius: 10px;
+    transition: 500ms;
+    margin:40px;
+  }
+}
+
+.postal-card:active{
+  width:600px;
+  height:300px;
+  transition: 500ms;
+}
+
+.postal-card:hover{
+  transform: rotateY(360deg);
+  transition: 800ms;
+  background-color: blue;
+}

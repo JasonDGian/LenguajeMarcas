@@ -1,0 +1,33 @@
+.overflow-visible{
+    color: blue;
+    height: 2em;
+    width: 12em;
+    border: 3px dotted orange;
+    margin-bottom: 300px;
+    overflow: visible;
+}
+
+.overflow-hidden{
+    color: red;
+    height: 2em;
+    width: 12em;
+    border: 3px dotted orange;
+    margin-bottom: 300px;
+    overflow: hidden;
+}
+
+.overflow-scroll{
+    height: 2em;
+    width: 12em;
+    border: 3px dotted orange;
+    margin-bottom: 300px;
+    overflow: scroll;
+}
+
+.overflow-auto{
+    height: 2em;
+    width: 12em;
+    border: 3px dotted orange;
+    margin-bottom: 300px;
+    overflow: auto;
+}

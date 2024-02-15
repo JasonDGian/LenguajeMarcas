@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+div {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    background-color: crimson;
+}
+
+span {
+    background-color: slateblue;
+    width: 100px;
+    height: 50px;
+    padding: 30px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px 10px;
+    display: inline-block;
+}

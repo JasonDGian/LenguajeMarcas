@@ -1,0 +1,27 @@
+body{
+  color: gray;
+}
+.grid-container{
+  display: grid;
+  grid-template-rows: 50px 100px; /* Esto creará dos filas, una de 50 px y otra de 100px.*/
+  grid-template-columns: 25% 50%; /*Esto creará dos columnas, una que ocupa el 25% del dom y otra el 50*/
+}
+
+.grid-container :nth-child(3){
+  grid-row: 1; /* esto elige en que posición de fila se situa */
+  grid-column: 1; /* mientras que este define la posciión de columna */
+  background-color: red;
+  
+}
+
+.grid-container :nth-child(1){
+  grid-row: 2; 
+  grid-column: 3;
+  background-color: blue;
+}
+
+.grid-container :nth-child(2){
+  grid-row: 3;
+  grid-column: 2;
+  background-color: yellow;
+}

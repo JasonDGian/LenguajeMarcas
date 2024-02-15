@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+div {
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(251, 255, 0);    
+    border: 1px solid rgb(0, 0, 0);
+}
+
+span {
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(245, 89, 219);    
+    border: 1px solid rgb(0, 0, 0);
+}

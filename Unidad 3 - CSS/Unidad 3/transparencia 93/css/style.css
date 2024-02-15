@@ -1,0 +1,8 @@
+.margin-example{
+    width: 800px;
+    margin: auto;
+    height:100px;
+    padding: 10px 5px 8px 2px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}

@@ -1,0 +1,32 @@
+body{
+  color: gray;
+}
+.grid-container{
+  display: grid;
+  grid-template-rows: 50px 100px; /* Esto creará dos filas, una de 50 px y otra de 100px.*/
+  grid-template-columns: 25% 50%; /*Esto creará dos columnas, una que ocupa el 25% del dom y otra el 50*/
+  grid-gap: 5em;  /* Esto define el espacio alrededor de todos los elementos entablados. Tanto vertical como horizontal.*/
+                  /* No modifica el cuerpo del elemento, sino que actua como un margen.*/
+}
+
+.grid-container :nth-child(3){
+  grid-row: 1; /*primera fila*/
+  grid-column: 1; /*primera columna*/
+  background-color: red;
+  border: 2px solid black;
+  
+}
+
+.grid-container :nth-child(1){
+  grid-row: 2; 
+  grid-column: 3; 
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.grid-container :nth-child(2){
+  grid-row: 3;
+  grid-column: 2; 
+  background-color: yellow;
+  border: 2px solid black;
+}
