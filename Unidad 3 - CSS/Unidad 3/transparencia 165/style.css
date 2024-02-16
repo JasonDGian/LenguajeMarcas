@@ -1,0 +1,86 @@
+
+@keyframes cambiaColor{
+
+	0% {
+		background-color: red;
+	}
+
+	50%{
+		background-color: blue;
+	}
+
+	100%{
+		background-color: green;
+	}
+
+
+}
+
+@keyframes rotar{
+
+	0%{
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(360deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+
+
+}
+
+@keyframes desplazar {
+
+	from{
+		margin-left: 0px;
+	}
+	to{
+		margin-left: 300px;
+	}
+	
+}
+
+@keyframes desplazarV {
+
+	0%{
+		margin-top: 300px;
+	}
+	50%{
+		margin-top: 0px;
+	}
+	100%{
+		margin-top: 300px;
+	}
+	
+}
+
+@keyframes aparecer {
+
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+
+.mi-elemento{
+	display: flex;
+	height: 100px;
+	width: 100px;
+	animation: cambiaColor 2s, rotar 2s, desplazar 2s, desplazarV 2s, aparecer 0.2s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	border-radius: 50px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+}

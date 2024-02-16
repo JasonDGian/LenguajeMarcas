@@ -1,0 +1,42 @@
+
+@keyframes cambiaColor{
+
+	0% {
+		background-color: red;
+	}
+
+	50%{
+		background-color: blue;
+	}
+
+	100%{
+		background-color: green;
+	}
+
+
+}
+
+@keyframes rotar{
+
+	from{
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+
+
+}
+
+
+.mi-elemento{
+	height: 100px;
+	width: 100px;
+	animation: cambiaColor 2s, rotar 2s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	
+
+}
+
