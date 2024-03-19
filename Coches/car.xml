@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+
+<coche>
+    <marca>
+    SEAT
+    </marca>
+    <modelo>
+    1200 SPORT BOCANEGRA
+    </modelo>
+    <motor>
+        <revoluciones>
+        10000
+        </revoluciones>
+        <tipo>
+        Gasolina
+        </tipo>
+    </motor>
+    <puertas>
+    3
+    </puertas>
+    <kilometros>
+    199999
+    </kilometros>
+
+</coche>
+
+
+</coches>
